@@ -12,6 +12,8 @@ target 'spanishNumberApp' do
     :hermes_enabled => false
   )
 
+  pod 'RNSound', :path => '../node_modules/react-native-sound'
+
   target 'spanishNumberAppTests' do
     inherit! :complete
     # Pods for testing
